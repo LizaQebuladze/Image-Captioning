@@ -5,5 +5,8 @@ __pycache__/
 .venv/
 venv/
 
+# Dataset
+data/
+
 .DS_Store
 Thumbs.db
