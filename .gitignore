@@ -1,0 +1,24 @@
+# Dataset (too large / not ours to redistribute)
+data/*
+!data/.gitkeep
+
+# Trained model weights (large binary artifacts)
+models/*.pt
+models/*.pth
+
+# Keep smaller artifacts (tokenizer, test split, history, plots) tracked if you want,
+# or uncomment the lines below to exclude them too:
+# models/*.pkl
+# models/*.json
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.egg-info/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
