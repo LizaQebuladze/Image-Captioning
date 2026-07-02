@@ -24,7 +24,7 @@ Linear Layer + Dropout
 Attention + LSTM Decoder
       │
 Generated Caption
-
+'''
 
 # Encoder
 
@@ -82,7 +82,7 @@ image-captioning-project/
 └── data/
     ├── Images/
     └── captions.txt
-
+'''
 
 # Notebook Description
 
