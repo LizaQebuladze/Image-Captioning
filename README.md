@@ -12,7 +12,7 @@ Dataset: 8,000 images, each with 5 captions.
 # Model Design
 
 # Architecture
-
+```text
 Image (224x224x3)
       │
 EfficientNet-B0 (pretrained and frozen)
@@ -66,8 +66,9 @@ Metric
 - Average Inference Time:  0.734 sec/image
 
 
-# Repository Structure
+## Repository Structure
 
+```text
 image-captioning-project/
 ├── README.md
 ├── requirements.txt
@@ -81,6 +82,7 @@ image-captioning-project/
 └── data/
     ├── Images/
     └── captions.txt
+
 
 # Notebook Description
 
